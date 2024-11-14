@@ -16,7 +16,8 @@ NEWSPIDER_MODULE = "my_scrapy_project.spiders"
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 # my_scrapy_project/settings.py
 
-USER_AGENT = "my_scrapy_project (+https://carbon38.com/)"
+USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36'
+
 
 
 # Obey robots.txt rules
