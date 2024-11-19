@@ -107,7 +107,6 @@ class DronesSpider(scrapy.Spider):
                     'colortitle': product.css('label.ColorSwatch::attr(title)').get(),
                     'sizes': product.css('div.ProductItem__SizeVariants a.add-size-to-cart::text').getall(),
                     'imageurl': product.css('img.ProductItem__Image::attr(src)').get(),
-                    'reviews': product.css('div.yotpo-sr-bottom-line-text.yotpo-sr-bottom-line-text--right-panel::text').get(),
                 }
                 yield item
 
